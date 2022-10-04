@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="intranet/admin/Figura.xhtml" x="61" y="469" zoom="true"/>
+        <Node id="intranet/admin/index.xhtml" x="1164" y="572" zoom="true"/>
+        <Node id="intranet/admin/CatalogoActualizar.xhtml" x="389" y="147" zoom="true"/>
+        <Node id="layouts/headerClient.xhtml" x="856" y="537" zoom="false"/>
+        <Node id="intranet/client/index.xhtml" x="429" y="576" zoom="true"/>
+        <Node id="VerComics.xhtml" x="81" y="236" zoom="true"/>
+        <Node id="intranet/admin/RopaActualizar.xhtml" x="1159" y="104" zoom="true"/>
+        <Node id="intranet/client/VerComics.xhtml" x="44" y="19" zoom="true"/>
+        <Node id="VerMangas.xhtml" x="867" y="221" zoom="true"/>
+        <Node id="VerVideojuegos.xhtml" x="468" y="221" zoom="true"/>
+        <Node id="intranet/client/VerFiguras.xhtml" x="43" y="383" zoom="true"/>
+        <Node id="nosotros.xhtml" x="1199" y="309" zoom="true"/>
+        <Node id="intranet/admin/ComicsInsertar.xhtml" x="13" y="202" zoom="true"/>
+        <Node id="layouts/header.xhtml" x="864" y="315" zoom="true"/>
+        <Node id="intranet/admin/DetalleInsertar.xhtml" x="431" y="360" zoom="true"/>
+        <Node id="intranet/admin/RopaError.xhtml" x="1150" y="196" zoom="true"/>
+        <Node id="intranet/admin/DetalleError.xhtml" x="432" y="315" zoom="true"/>
+        <Node id="index.xhtml" x="1188" y="517" zoom="true"/>
+        <Node id="layouts/footerClient.xhtml" x="855" y="572" zoom="true"/>
+        <Node id="VerRopa.xhtml" x="1210" y="242" zoom="true"/>
+        <Node id="intranet/admin/Ropa.xhtml" x="1169" y="143" zoom="true"/>
+        <Node id="intranet/admin/CatalogoError.xhtml" x="406" y="180" zoom="true"/>
+        <Node id="intranet/admin/Detalle.xhtml" x="442" y="391" zoom="true"/>
+        <Node id="intranet/admin/ComicsActualizar.xhtml" x="10" y="150" zoom="true"/>
+        <Node id="intranet/admin/FiguraError.xhtml" x="41" y="427" zoom="true"/>
+        <Node id="intranet/admin/CatalogoInsertar.xhtml" x="395" y="108" zoom="true"/>
+        <Node id="intranet/admin/Catalogo.xhtml" x="427" y="60" zoom="true"/>
+        <Node id="intranet/admin/FiguraInsertar.xhtml" x="38" y="507" zoom="true"/>
+        <Node id="intranet/admin/MangaError.xhtml" x="823" y="142" zoom="true"/>
+        <Node id="intranet/admin/ComicsError.xhtml" x="28" y="68" zoom="true"/>
+        <Node id="intranet/admin/BoletaInsertar.xhtml" x="422" y="428" zoom="true"/>
+        <Node id="intranet/admin/FiguraActualizar.xhtml" x="20" y="345" zoom="true"/>
+        <Node id="intranet/admin/Manga.xhtml" x="816" y="62" zoom="true"/>
+        <Node id="intranet/admin/Comics.xhtml" x="37" y="107" zoom="true"/>
+        <Node id="intranet/client/VerVideojuegos.xhtml" x="416" y="20" zoom="true"/>
+        <Node id="VerFiguras.xhtml" x="71" y="313" zoom="true"/>
+        <Node id="intranet/client/VerMangas.xhtml" x="825" y="185" zoom="true"/>
+        <Node id="intranet/admin/Boleta.xhtml" x="439" y="514" zoom="true"/>
+        <Node id="error.xhtml" x="1225" y="357" zoom="true"/>
+        <Node id="login2.xhtml" x="1218" y="457" zoom="true"/>
+        <Node id="intranet/admin/RopaInsertar.xhtml" x="1160" y="62" zoom="true"/>
+        <Node id="intranet/client/VerRopa.xhtml" x="1171" y="21" zoom="true"/>
+        <Node id="intranet/admin/MangaInsertar.xhtml" x="800" y="22" zoom="true"/>
+        <Node id="intranet/admin/BoletaError.xhtml" x="440" y="464" zoom="true"/>
+        <Node id="intranet/admin/MangaActualizar.xhtml" x="785" y="104" zoom="true"/>
+        <Node id="intranet/client/nosotros.xhtml" x="427" y="612" zoom="true"/>
+        <Node id="layouts/footer.xhtml" x="880" y="606" zoom="true"/>
+        <Node id="layouts/headerAdmin.xhtml" x="849" y="503" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
