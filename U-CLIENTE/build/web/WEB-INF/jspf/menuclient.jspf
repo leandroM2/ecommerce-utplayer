@@ -1,0 +1,27 @@
+<%@ page pageEncoding="UTF-8" %>
+<nav class="nav">
+    <a href="index.php" class="logo nav-link"><img class="logo-utp" src="img/Logo.png" alt=""></a>
+    <button class="nav-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-menu">
+        <li class="nav-menu-item">
+            <a href="index.php" class="nav-menu-link nav-link">INICIO</a>
+        </li>
+        <li class="nav-menu-item">
+            <a href="catalogoonline.php" class="nav-menu-link nav-link">CATÁLOGO ONLINE</a>
+        </li>
+        <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link">CATÁLOGO FÍSICO</a>
+        </li>
+        <li class="nav-menu-item">
+            <a href="nosotros.php" class="nav-menu-link nav-link">¿QUIÉNES SOMOS?</a>
+        </li>
+        <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link nav-menu-link_active">CONTACTO</a>
+        </li>
+        <li class="nav-menu-item">
+            <a href="login.jsp" class="nav-menu-link nav-link">INICIO DE SESIÓN</a>
+        </li>
+    </ul>
+</nav>

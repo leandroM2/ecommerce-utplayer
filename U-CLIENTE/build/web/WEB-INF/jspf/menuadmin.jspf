@@ -1,0 +1,6 @@
+<%@ page pageEncoding="UTF-8" %>
+        <h1 class="titulo-general">INTRANET UTPLAYER</h1>
+        <br><br/>
+        <a href="Catalogo.jsp"><p class="sangria"><strong>Mantenimiento del Catálogo</strong></p></a>
+         <a href="../../Boleta.jsp"><p class="sangria"><strong>Mantenimiento de Boletas</strong></p></a>
+         <a href="../../Detalle.jsp"><p class="sangria"><strong>Mantenimiento de Detalle de Boletas</strong></p></a>
