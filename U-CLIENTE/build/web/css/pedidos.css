@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    box-sizing: border-box;
+    font-family: "century gothic";
+}
+body {
+    background: url("../img/metal.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+
+

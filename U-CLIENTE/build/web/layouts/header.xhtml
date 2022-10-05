@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+    <h:body>
+        <ui:composition>
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container px-4 px-lg-5">
+                    <a class="navbar-brand" href="/U-CLIENTE/faces/index.xhtml">UTPLAYER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/U-CLIENTE/faces/index.xhtml">INICIO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="/U-CLIENTE/faces/nosotros.xhtml">NOSOTROS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS&nbsp;</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/U-CLIENTE/faces/VerComics.xhtml">COMICS</a></li>
+                                    <li><a class="dropdown-item" href="/U-CLIENTE/faces/VerRopa.xhtml">ROPA</a></li>
+                                    <li><a class="dropdown-item" href="/U-CLIENTE/faces/VerMangas.xhtml">MANGAS</a></li>
+                                    <li><a class="dropdown-item" href="/U-CLIENTE/faces/VerFiguras.xhtml">FIGURAS</a></li>
+                                    <li><a class="dropdown-item" href="/U-CLIENTE/faces/VerVideojuegos.xhtml">VIDEOJUEGOS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="/U-CLIENTE/faces/login2.xhtml">&nbsp;&nbsp;&nbsp;&nbsp;INICIAR SESIÓN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn btn-outline-dark" type="submit" >
+                                <i class="bi-cart-fill me-1"></i>
+                                CARRITO
+                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <header class="bg-dark py-5"  style="height: 180px">
+                <div class="container px-4 px-lg-5 my-0">
+                    <div class="text-center text-white">
+                        <h2 class="display-5 fw-bolder align-self-xxl-center">UTPLAYER</h2>
+                        <p class="lead fw-normal text-white-50 mb-0">TUS PRODUCTOS FAVORITOS AL MEJOR PRECIO</p>
+                    </div>
+                </div>
+            </header>
+
+        </ui:composition>
+    </h:body>
+</html>
+

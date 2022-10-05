@@ -1,0 +1,66 @@
+* {
+    font-family: "century gothic";
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c4128;
+    text-decoration: underline;
+}
+
+a {
+    transition: color 0.1s linear 0.2s;
+}
+.letra:hover{
+    text-decoration: underline;
+}
+
+.titulo-general {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.nombres-juegos {
+    width: 500px;
+}
+
+.boton {
+    font-size: 20px;
+    color: #ffffff;
+    background: #000000;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+.boton a:hover {
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    transition-duration: 1000ms;
+    text-decoration: none;
+}
+
+.nombretexto {
+    font-size: 20px;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+p.sangria {
+    text-indent: 30px;
+}

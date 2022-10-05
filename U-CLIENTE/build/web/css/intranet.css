@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/metal.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:before {
+    color: red;
+}
+
+table {
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    text-decoration: none;
+}

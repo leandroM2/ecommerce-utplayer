@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body rendered="#{usuariosBeans.verificarAdmin()}">
+            <h1>Error</h1>  
+            <h:outputText value="#{ropaP.msg}"/>
+        <br/><br/>
+        <a class="btn btn-outline-danger" href="/U-CLIENTE/faces/intranet/admin/Ropa.xhtml"
+           style="margin: 0 auto; width: 260px; padding: 10px;">
+            Regresar
+        </a>
+    </body>
+</html>

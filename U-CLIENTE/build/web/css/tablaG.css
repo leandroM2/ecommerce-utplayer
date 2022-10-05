@@ -1,0 +1,38 @@
+
+#main-container{
+    margin: 50px auto;
+    width:1000px;
+
+}
+
+table{
+    background-color: cornsilk;
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 15px;
+}
+thead{
+    background: #246355;
+    border-bottom: solid 5px white;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: lightgoldenrodyellow;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+
+.titulo-general {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+}

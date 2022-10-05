@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      >
+    <h:head>
+        <title>Actualizar VJ</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></link>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="../../css/styles.css" rel="stylesheet" />
+        <link href="../../css/index.css" rel="stylesheet" />
+        <link href="../../css/footer.css" rel="stylesheet" />
+        <link href="../../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+        <link rel="shortcut icon" href="../../img/UTP.png" type="image/x-icon"></link>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <style>
+            * {
+                font-family: "century gothic";
+            }
+
+            p.centro{
+                text-align:center;
+            }
+        </style>
+    </h:head>
+    <body rendered="#{usuariosBeans.verificarAdmin()}">
+        <br/><br/><br/><br/><br/>
+        <div class="card" style="margin: auto; display: table; width: 360px;">
+            <div class="card-header">
+                <label class="col-sm-12"><p class="centro" style="font-size: 20px">Actualizar</p></label>               
+            </div>
+            <div class="card-body text-center d-xl-block">
+                <h:form>
+                    <div class="mb-3">
+                        <label  style="margin: auto; display: table; width: 260px; font-size: 20px;" class="form-label">NOMBRE</label>
+                        <h:inputText style="margin: auto; display: table; width: 260px"  class="form-control" id="nombre"  required="true"
+                                     value="#{catalogo.dataC.nombre}">
+                        </h:inputText>
+                    </div>
+                    <div class="mb-3">
+                        <label style="margin: auto; display: table; width: 260px; font-size: 20px;" class="form-label">CATEGORIA</label>
+                        <h:selectOneMenu class="form-control" id="categoria" value="#{catalogo.dataC.categoria}" style="margin: auto; display: table; width: 260px;"> 
+                            <f:selectItem itemValue = "" itemLabel = "Seleccionar" />
+                            <f:selectItem itemValue = "FISICO" itemLabel = "Formato físico" />
+                            <f:selectItem itemValue = "DIGITAL" itemLabel = "Formato digital" /> 
+                        </h:selectOneMenu>
+                    </div>
+                    <div class="mb-3">
+                        <label style="margin: auto; display: table; width: 260px; font-size: 20px;" class="form-label">PLATAFORMA</label>
+                        <h:selectOneMenu class="form-control" id="plataforma" value="#{catalogo.dataC.plataforma}" style="margin: auto; display: table; width: 260px;"> 
+                            <f:selectItem itemValue = "" itemLabel = "Seleccionar" />
+                            <f:selectItem itemValue = "PS4" itemLabel = "PlayStation 4" />
+                            <f:selectItem itemValue = "PS5" itemLabel = "PlayStation 5" />
+                            <f:selectItem itemValue = "PC" itemLabel = "Computadora" />
+                            <f:selectItem itemValue = "NINTENDO SWITCH" itemLabel = "Nintendo Switch" />
+                            <f:selectItem itemValue = "XBOX S|X" itemLabel = "Xbox Series S|X" />
+                            <f:selectItem itemValue = "XBOX ONE" itemLabel = "Xbox One" />
+                            <f:selectItem itemValue = "XBOX 360" itemLabel = "Xbox 360" /> 
+                        </h:selectOneMenu>
+                    </div>
+                    <div class="mb-3">
+                        <label  style="margin: auto; display: table; width: 260px; font-size: 20px;" class="form-label">PRECIO</label>
+                        <h:inputText style="margin: auto; display: table; width: 260px"  class="form-control" id="precio"  required="true"
+                                     value="#{catalogo.dataC.precio}">
+                        </h:inputText>
+                    </div>
+                    <div class="mb-3">
+                        <label  style="margin: auto; display: table; width: 260px; font-size: 20px;" class="form-label">STOCK</label>
+                        <h:inputText style="margin: auto; display: table; width: 260px"  class="form-control" id="stock"  required="true"
+                                     value="#{catalogo.dataC.stock}">
+                        </h:inputText>
+                    </div>
+                    <div class="mb-3">
+                        <label  style="margin: auto; display: table; width: 260px; font-size: 20px;" class="form-label">IMAGEN</label>
+                        <h:inputText style="margin: auto; display: table; width: 260px"  class="form-control" id="imagen"  required="true"
+                                     value="#{catalogo.dataC.imagen}">
+                        </h:inputText>
+                    </div>
+                    <br/>
+                    <div align="center">
+                        <h:commandButton class="btn btn-outline-primary"  style="margin: 0 auto; width: 260px; padding: 10px; align-content: center" value="Actualizar"
+                                         action="#{catalogo.catalogoUpd()}">
+                        </h:commandButton>
+                    </div>
+                    <h:message for="nombre" style="color: red;"/>
+                    <h:message for="categoria"  style="color: red;"/>
+                    <br/>
+                    <h:message for="plataforma"  style="color: red;"/>
+                    <h:message for="imagen"  style="color: red;"/>
+                    <br/>
+                    <h:message for="stock"  style="color: red;"/>
+                    <h:message for="precio"  style="color: red;"/>
+                </h:form>
+            </div>
+            <div class="card-footer">
+                <div class="col-sm-12">
+                    <br/>
+                    <div align="center">
+                        <a class="btn btn-outline-danger" href="/U-CLIENTE/faces/intranet/admin/Catalogo.xhtml"
+                           style="margin: 0 auto; width: 260px; padding: 10px;">
+                            REGRESAR
+                        </a>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+        </div>
+        <h:outputText value="#{catalogo.msg}"/>
+        <br/><br/>
+    </body>
+</html>
