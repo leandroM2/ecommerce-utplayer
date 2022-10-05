@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="ws.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Prueba texto</h1>
+        <button onclick="test();">Probar</button>
+        <br/>
+        <span id="result"></span>
+        <hr/>
+        <h1>Prueba saludo</h1>
+        <input type="text" id="nom"/>
+        <button onclick="saludo();">Saludar</button>
+        <br/>
+        <span id="saludo"></span>
+
+        <h1>Prueba BD</h1>
+        <button onclick="datos();">Cargar datos</button>
+        <br/>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>DNI</th>
+                    <th>DATOS</th>
+                    <th>CORREO</th>
+                    <th>FECHA</th>
+                    <th>DEUDA</th>
+                </tr>
+            </thead>
+            <tbody id="datos"></tbody>
+        </table>
+    </body>
+</html>
